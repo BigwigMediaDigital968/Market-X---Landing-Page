@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
+import SocialProofPopups from "@/component/SocialProofPopups";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -14,9 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Top Online Trading Platform | MasterX",
+  title: "Top Online Trading Platform | Market X Traders",
   description:
-    "Explore MasterX to follow automated trading systems built from market trends. Trusted by 50,700+ traders worldwide.",
+    "Explore Market X Traders to follow automated trading systems built from market trends. Trusted by 50,700+ traders worldwide.",
 };
 
 export default function RootLayout({
@@ -27,6 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <SocialProofPopups />
         {children}
 
         <Script id="facebook-pixel" strategy="afterInteractive">

@@ -67,7 +67,7 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className={`${sharedTypographyClass} text-white`}
           >
-            Open Your Trading Account with MasterX.
+            Open Your Trading Account with Market X Traders.
           </motion.h1>
 
           <motion.h2
@@ -194,7 +194,7 @@ export default function Hero() {
           <CTAButton />
 
           <a
-            href="#lead-form"
+            href="#connect-form"
             className="px-6 py-4 border border-white/20 rounded-xl text-white font-semibold hover:bg-white/10"
           >
             Request Callback

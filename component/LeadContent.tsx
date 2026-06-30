@@ -11,8 +11,8 @@ export default function LeadContent() {
       </h2>
 
       <p className="mt-8 text-xl text-text-secondary max-w-xl leading-relaxed">
-        Open your FREE Demat & Trading Account with MasterX and get access to
-        low brokerage, advanced trading tools, and expert support.
+        Open your FREE Demat & Trading Account with Market X Traders and get
+        access to low brokerage, advanced trading tools, and expert support.
       </p>
 
       <div className="mt-14 space-y-8">

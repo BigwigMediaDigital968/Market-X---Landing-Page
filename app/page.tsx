@@ -15,7 +15,7 @@ export default function Home() {
       <HeroSection />
       <TickerBar />
       <section
-        id="lead-form"
+        id="connect-form"
         className="relative overflow-hidden bg-bg-main py-24"
       >
         <div className="absolute inset-0 grid-pattern opacity-40" />

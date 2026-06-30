@@ -8,7 +8,7 @@ import CTAButton from "./CTAButton";
 
 const navLinks = [
   { label: "Home", href: "/", id: "hero" },
-  { label: "Contact", href: "#lead-form", id: "lead-form" },
+  { label: "Contact", href: "#connect-form", id: "connect-form" },
   { label: "Why Choose Us", href: "#why-choose-us", id: "why-choose-us" },
   { label: "Process", href: "#step-process", id: "step-process" },
 ];

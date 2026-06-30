@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const navLinks = [
   { label: "Home", href: "/" },
-  { label: "Contact", href: "#lead-form" },
+  { label: "Contact", href: "#connect-form" },
   { label: "Why Choose Us", href: "#why-choose-us" },
   { label: "Process", href: "#step-process" },
 ];
@@ -42,7 +42,7 @@ export default function Footer() {
 
           {/* Copyright */}
           <p className="text-center text-sm text-text-muted">
-            © {new Date().getFullYear()} MasterX. All rights reserved.
+            © {new Date().getFullYear()} Market X Traders. All rights reserved.
           </p>
         </div>
       </div>

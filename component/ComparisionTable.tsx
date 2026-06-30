@@ -79,12 +79,13 @@ const ComparisonTable = () => {
             <span>Why Trade With Us</span>
           </div>
           <h2 className="text-3xl md:text-5xl font-bold text-white mb-4 tracking-tight">
-            How <span className="text-blue-500">MasterX</span> Stands Apart
+            How <span className="text-blue-500">Market X Traders</span> Stands
+            Apart
           </h2>
           <p className="text-gray-400 text-lg max-w-3xl mx-auto">
             Most traders switch to a better online trading platform once they
             experience the difference in speed, cost, and support. Here's what
-            sets MasterX apart:
+            sets Market X Traders apart:
           </p>
         </div>
 
@@ -99,7 +100,7 @@ const ComparisonTable = () => {
               Other Platforms
             </div>
             <div className="p-6 md:p-8 text-blue-400 font-bold uppercase tracking-widest text-xs text-center bg-blue-500/5 relative">
-              MasterX Experience
+              Market X Traders Experience
               <div className="absolute bottom-0 left-0 w-full h-1 bg-blue-500"></div>
             </div>
           </div>
