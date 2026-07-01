@@ -18,6 +18,9 @@ export const metadata: Metadata = {
   title: "Top Online Trading Platform | Market X Traders",
   description:
     "Explore Market X Traders to follow automated trading systems built from market trends. Trusted by 50,700+ traders worldwide.",
+  icons: {
+    icon: "/master-x-traders-logo.jpeg",
+  },
 };
 
 export default function RootLayout({
