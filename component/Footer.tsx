@@ -16,7 +16,7 @@ export default function Footer() {
         <div className="flex flex-col items-center gap-6">
           {/* Logo */}
           <h2 className="text-2xl font-bold text-white">
-            Master<span className="text-accent-blue">X</span>
+            Master<span className="text-accent-blue"> X </span>Traders
           </h2>
 
           {/* Navigation */}
