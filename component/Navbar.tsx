@@ -54,8 +54,8 @@ export default function Navbar() {
     <nav
       className={`fixed top-0 left-0 right-0 z-[100] transition-all duration-500 ease-in-out ${
         scrolled
-          ? "bg-[#0B0E14]/80 backdrop-blur-[24px] border-b border-white/5 py-3"
-          : "bg-transparent border-b border-transparent py-5"
+          ? "bg-[#0B0E14]/80 backdrop-blur-[24px] border-b border-white/5 py-1"
+          : "bg-transparent border-b border-transparent py-3"
       }`}
     >
       <div className="max-w-[1280px] mx-auto px-6 flex items-center justify-between">
@@ -64,10 +64,10 @@ export default function Navbar() {
           href="/"
           className="flex items-center gap-[10px] no-underline group"
         >
-          <div className="h-[25px] sm:h-[30px] md:h-[40px] w-auto">
+          <div className="h-[40px] sm:h-[50px] md:h-[80px] w-auto">
             <img
-              src="/logo-apex-site.png"
-              alt="ApexTrade Logo"
+              src="/master-x-traders-logo-trans.png"
+              alt="Master X Traders Logo"
               className="object-contain w-auto h-full"
             />
           </div>
